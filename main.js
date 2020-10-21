@@ -75,8 +75,6 @@ if (hour >= 0 && hour < 12) {
 }
 document.querySelector(".greeting").textContent = greeting;
 
-
-
 unsplash();
 weather();
 qotd();
