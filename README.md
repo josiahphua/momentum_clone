@@ -1,11 +1,18 @@
 # Momentum Clone
 
+## Objective
+- To read and understand API docs and apply them to your own projects. 
+
+## Preparation
+1. Clone and fork this repo
+2. Create your own html, css and js files.
+3. Run `npm init -y` to initialize the project
+4. Submit a pull request upon completion.
 
 ## Spec:
 Today we're building a clone of the popular chrome homepage extension, [Momentum](https://chrome.google.com/webstore/detail/momentum/laookkfknpbbblfpciffpaejjkokdgca?hl=en).
 
-![momentum](https://github.com/WDI-HoneyBadger/hw-w07d02-momentum-clone/blob/master/momentum_spec.png)
-
+![momentum](./momentum_spec.png)
 
 
 ## Part1:  Get The Data 
@@ -40,7 +47,7 @@ If you want to change the font color to white, or the background image to the ri
 3. Use the [Forismatic API](https://forismatic.com/en/api/) to get a random quote for the bottom of the page.  You do not need a unique key for this.  You are probably supposed to, but I have found that the key used in the examples from the docs works just fine.  Read the docs to determine how to get a random quote.  When you have the random quote, append the quote to do the DOM. (this is an example of an API with very limited and poor documentation).  An alternative quote API is [Quote of the Day](https://quotes.rest/qod).
 
 4. Use [Moment](http://momentjs.com/) to render a time.  Moment is not an API, it's a library for time.  Paste this CDN to the header of your html to gain access to the Moment library in your app: 
-  `<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>`. 
+  `<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>`. OR run `npm i moment`
   Now in your main.js file put this in there: `console.log(moment().format('LTS'))`.  Look, you have the time!  Append this time to the html page to finish the app.  Reading the docs may be helpful for context.
 
 
@@ -55,7 +62,7 @@ Some styling suggestions:
 
 Add any other minor details you see.
 
-## Bonus:
+## Further:
 1. Look at the spec, do you see that little icon next to the temperature? Below there is an object with icons you can use for this. Add the appropriate icon next to the temp.  If the API says it's sunny, there should be a sun, clouds if it is cloudy, etc.
 ```js
 const icons = {
