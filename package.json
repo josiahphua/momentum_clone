@@ -1,0 +1,29 @@
+{
+  "name": "momentum_clone",
+  "version": "1.0.0",
+  "description": "## Objective - To read and understand API docs and apply them to your own projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.generalassemb.ly/sei-sg/momentum_clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "bootstrap": "^4.5.3",
+    "cors": "^2.8.5",
+    "jquery": "^3.5.1",
+    "moment": "^2.29.1",
+    "parcel-bundler": "^1.12.4",
+    "popper": "^1.0.1",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "sass": "^1.27.0"
+  }
+}
