@@ -4,10 +4,10 @@ let axios = require('axios');
 let moment = require('moment')
 
 const unsplashUrl = "https://api.unsplash.com/photos"
-const unsplashKey = "DMpqLfhV6nBA90VEO-DFFtROVhCAQSLOq0kTU95QukY"
+const unsplashKey = "<KEY HERE>"
 
 const weatherUrl = "http://api.openweathermap.org/data/2.5"
-const weatherKey = "9b1dc10e16677d878d9b21c860fa9fae";
+const weatherKey = "<KEY HERE>";
 
 const quoteUrl = "https://api.forismatic.com/api/1.0/?method=getQuote&format=json&lang=en"
 
