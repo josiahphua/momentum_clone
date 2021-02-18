@@ -23,6 +23,7 @@ Don't get too deep into CSS for this part!  The goal for part 1 is to just get t
 
 1. Use the [Unsplash API](https://unsplash.com/) to get a random photo for the background image.  Read the docs to determine the right endpoint to do this.  Once you have the response data inspect the object.  Which part of the data do you think would be helpful for what we need here?  Remember, our goal here is to set the background of our site to a random image.  When you find what you need, write a function that sets the background image of our site to the random image from the API. 
     > You have to create an account and create an app on unsplash to get an access key.
+    
     > Note that unsplash does have a limit of 50 hits per hour. Once you have this feature done, consider commenting out the fetch call so you don't make fetches while working on other features.
 
     > Also note that your CORS chrome extension will need to be on for it to work!
